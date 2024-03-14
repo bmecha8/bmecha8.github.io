@@ -182,6 +182,11 @@ h3{
     color: black;
     margin: 30px;
     height: auto;
+    
+}
+
+.photo a{
+    display:block;
 }
 
 .photo img{
@@ -226,6 +231,9 @@ main li{
     text-indent: 0;
 }
 
+cite{
+    font-size: 11px;
+}
 
 /* Header */
 .parallaxIndex0{
@@ -329,6 +337,78 @@ main li{
 
 .parallaxRestaurants0{
     background-image: url("images/BadjaoSeafrontRestaurant_CarrieKellenberger_flickr.jpg");
+    min-height: 100vh;
+    text-align: center;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxGrocery0{
+    background-image: url("images/StreetMarket11Veggies_CarolSawada_flickr.jpg");
+    min-height: 100vh;
+    text-align: center;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxLodging0{
+    background-image: url("images/CasaDaSerraCaparao_EliasRovielo_flickr.jpg");
+    min-height: 100vh;
+    text-align: center;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxEntertainment0{
+    background-image: url("images/Snorkelling_Ryan-so_flickr.jpg");
+    min-height: 100vh;
+    text-align: center;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxSeeing0{
+    background-image: url("images/Volcano_JohnCooke_flickr.jpg");
+    min-height: 100vh;
+    text-align: center;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxTransport0{
+    background-image: url("images/Transportation_Youthlinc_flickr.jpg");
+    min-height: 100vh;
+    text-align: center;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxTransport1{
+    background-image: url("images/Transportation_mikasandtoes_flickr.jpg");
     min-height: 100vh;
     text-align: center;
   
