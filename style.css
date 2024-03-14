@@ -1,0 +1,340 @@
+html body{
+    margin: 0;
+    font-family: Lato, sans-serif;
+}
+
+nav{
+    position: fixed;
+    display: block;
+    background-color: white;
+    padding: 25px;
+    top: 0vw;
+    width: 100vw;
+    z-index: 9;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    color: black;
+    padding: 8px;
+    
+
+    font-family: Georgia, serif;
+    
+    font-size: 16px;
+    
+    /* When Screen Is Small */
+    /* display: block;
+    width: 50vw; */
+}
+
+#breadcrumbs{
+    position: absolute;
+    top: 85px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100vw;
+    font-family: Georgia, serif;
+    z-index: 8;
+}
+
+#breadcrumbs a{
+    color: black;
+}
+
+#breadcrumbs a:hover{
+    color: rgb(75, 199, 75)
+}
+
+
+.activePage{
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#h1{
+    display: inline-block;
+    padding: 40px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    width: 60vw;
+    position: relative;
+    top: 40vh;
+}
+
+h1{
+    letter-spacing: 3px;
+}
+
+.caption{
+    display: inline-block;
+    padding: 40px;
+    background-color: black;
+    width: auto;
+    letter-spacing: 3px;
+    position: relative;
+    top: 15vh;
+    border-radius: 20px;
+}
+
+#look{
+    display: block;
+    padding: 40px;
+    width: auto;
+
+    color: black;
+    text-align: center;
+}
+
+#look h3{
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+#look a{
+    color: black;
+    text-decoration: underline;
+}
+
+#look a:hover{
+    color: rgb(75, 199, 75);
+}
+
+div{
+    text-align: center;
+    padding: 40px;
+}
+
+#followUs{
+    float: right;
+    
+}
+
+#followUs a{
+    display: inline-block;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+a img{
+    width: 30px;
+    padding: 5px;
+}
+
+#footer{
+    display: inline-block;
+    padding: 20px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    width: 60vw;
+    position: relative;
+    top: 20vh;
+}
+
+footer a{
+    color: white;
+    display: block;
+    text-align: left;
+    
+}
+
+.smallLinks{
+    text-indent: 20px;
+}
+
+a:hover{
+    color: rgb(75, 199, 75);
+}
+
+
+h3{
+    padding: 5px;
+    margin: 0;
+    text-align:left;
+}
+
+
+#flex {
+    display: flex;
+    /*gap: 20px;*/
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.photo {
+    padding: 20px;
+    box-shadow: 3px 3px 3px lightgray;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    width: 310px;
+    text-align: center;
+    color: black;
+    margin: 30px;
+    height: auto;
+}
+
+.photo img{
+    width: 300px;
+    height: 200px;
+    display: block;
+}
+
+.photo a{
+    color: black;
+    text-decoration: underline;
+}
+
+.hover:hover{
+    color: rgb(75, 199, 75);
+}
+
+a .photo h3:hover{
+    color: rgb(75, 199, 75);
+}
+
+.photo h3{
+    padding: 20px;
+    text-align: center;
+}
+
+main{
+    padding: 40px;
+    text-indent: 30px;
+    font-size: 18px;
+}
+
+main h2{
+    letter-spacing: 3px;
+    text-align: center;
+    text-indent: 0;
+}
+
+main li{
+    padding: 10px;
+    font-size: 16px;
+    text-indent: 0;
+}
+
+
+/* Header */
+.parallaxIndex0{
+    background-image: url("images/FI-6_flickr_KenSims.jpg");
+    min-height: 100vh;
+    text-align: center;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxIndex1{
+    background-image: url("images/Green_flickr_John.jpg");
+    min-height: 50vh;
+    text-align: center;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.parallaxIndex2{
+    background-image: url("images/BintanIsland_flickr_songZhen.jpg");
+    min-height: 50vh;
+    text-align: center;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.parallaxIndex3{
+    background-image: url("images/IMG_9460_flickr_RooopoeHaapalainen.jpg");
+    min-height: 50vh;
+    text-align: center;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* Footer */
+.parallaxIndex4{
+    background-image: url("images/FI-6_flickr_KenSims.jpg");
+    min-height: 70vh;
+    text-align: center;
+    
+    
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxTouristNeeds0{
+    background-image: url("images/Tourists_flickr_PietroTranchida.jpg");
+    min-height: 100vh;
+    text-align: center;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxAbout0{
+    background-image: url("images/IMG_9460_flickr_RooopoeHaapalainen.jpg");
+    min-height: 100vh;
+    text-align: center;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxFAQs0{
+    background-image: url("images/Green_flickr_John.jpg");
+    min-height: 100vh;
+    text-align: center;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxRestaurants0{
+    background-image: url("images/BadjaoSeafrontRestaurant_CarrieKellenberger_flickr.jpg");
+    min-height: 100vh;
+    text-align: center;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
